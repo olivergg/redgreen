@@ -21,6 +21,6 @@
 
 (defn ^:export init []
   (routes/app-routes)
-  (re-frame/dispatch-sync [::events/reset 4])
+  (re-frame/dispatch-sync [::events/reset 6])
   (dev-setup)
   (mount-root))
